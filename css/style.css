@@ -1,0 +1,21 @@
+
+ 
+  .navbar-inverse{
+    padding: 20px;
+    text-align: right;
+  }
+
+  .btn-primary{
+      margin: 10px;
+  }
+
+  .gifClass{
+      margin: 10px;
+  }
+
+  /* Prevents inline form frm splitting in small screens  */
+  @media (max-width: 767px) {
+    .form-inline .form-group {
+      display: inline-block;
+    }
+  }
